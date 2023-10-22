@@ -1,7 +1,12 @@
 # Better Laravel Extension Pack
 
-```
-{
+Better Laravel Extension Pack for a collection of extensions that help you with Laravel development.
+
+## Recommended Settings for minimal and better experience
+
+### settings.json
+
+```json
   "editor.inlineSuggest.enabled": true,
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
@@ -43,21 +48,10 @@
     "plaintext": false,
     "markdown": true
   },
-  "screencastMode.verticalOffset": 0,
-  "screencastMode.fontSize": 20,
   "telemetry.telemetryLevel": "off",
   "typescript.inlayHints.enumMemberValues.enabled": true,
   "scm.diffDecorations": "gutter",
   "files.autoSave": "onWindowChange",
-  "codesnap-plus.showWindowTitle": true,
-  "codesnap-plus.shutterAction": "copy",
-  "codesnap-plus.transparentBackground": true,
-  "codesnap-plus.realLineNumbers": true,
-  "codesnap-plus.containerPadding": "0em",
-  "[vue]": {
-    "editor.defaultFormatter": "Vue.volar"
-  },
-  "screencastMode.keyboardOverlayTimeout": 5000,
   "editor.renderLineHighlight": "none",
   "editor.matchBrackets": "never",
   "workbench.startupEditor": "none",
@@ -68,7 +62,6 @@
   "editor.fontFamily": "JetBrains Mono",
   "editor.fontLigatures": true,
   "editor.lineHeight": 2.15,
-  "phpParameterHint.onChange": true,
   "security.workspace.trust.untrustedFiles": "open",
   "explorer.confirmDragAndDrop": false,
   "zenMode.centerLayout": false,
@@ -83,14 +76,9 @@
   "[svelte]": {
     "editor.defaultFormatter": "svelte.svelte-vscode"
   },
-  "svelte.enable-ts-plugin": true,
   "terminal.integrated.enableMultiLinePasteWarning": false,
   "editor.bracketPairColorization.enabled": false,
   "laravel-pint.enable": true,
-  "terminal.external.windowsExec": "Terminal.app",
-  "terminal.integrated.automationProfile.windows": {
-    "path": "C:\\Program Files\\PowerShell\\7\\pwsh.exe"
-  },
   "terminal.explorerKind": "external",
   "terminal.integrated.cursorBlinking": true,
   "zenMode.fullScreen": false,
@@ -104,20 +92,21 @@
   "window.title": "${rootName}",
   "editor.minimap.enabled": false,
   "workbench.list.smoothScrolling": true,
-  "phpParameterHint.collapseHintsWhenEqual": true,
-  "phpParameterHint.onSave": false,
   "workbench.layoutControl.enabled": false,
   "editor.renderWhitespace": "none",
-  "phpParameterHint.collapseTypeWhenEqual": true,
   "git-graph.graph.style": "angular",
   "workbench.iconTheme": "material-icon-theme",
   "material-icon-theme.hidesExplorerArrows": true,
   "material-icon-theme.folders.color": "#808080",
   "intelephense.runtime": "C:\\laragon\\bin\\nodejs\\node-v18.17.0-win-x64\\node.exe",
   "material-icon-theme.folders.theme": "specific",
+  "phpParameterHint.collapseTypeWhenEqual": true,
+  "phpParameterHint.onChange": true,
   "phpParameterHint.changeDelay": 0,
   "phpParameterHint.saveDelay": 0,
   "phpParameterHint.verticalPadding": 0,
+  "phpParameterHint.collapseHintsWhenEqual": true,
+  "phpParameterHint.onSave": false,
   "phpParameterHint.textEditorChangeDelay": 0,
   "phpParameterHint.opacity": 1,
   "phpParameterHint.fontSize": 14,
@@ -132,5 +121,98 @@
   "workbench.activityBar.visible": false,
   "workbench.statusBar.visible": false,
   "window.menuBarVisibility": "compact"
-}
+```
+
+### keybindings.json
+
+```json
+[
+  {
+    "key": "alt+d",
+    "command": "workbench.view.extension.github-cweijan-mysql"
+  },
+  {
+    "key": "alt+t",
+    "command": "workbench.view.extension.thunder-client"
+  },
+  {
+    "key": "ctrl+shift+r",
+    "command": "-workbench.view.extension.thunder-client"
+  },
+  {
+    "key": "alt+b",
+    "command": "workbench.action.toggleActivityBarVisibility"
+  },
+  {
+    "key": "alt+m",
+    "command": "workbench.action.toggleMenuBar"
+  },
+  {
+    "key": "alt+n",
+    "command": "workbench.action.toggleStatusbarVisibility"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "-workbench.action.files.newUntitledFile"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "explorer.newFile"
+  },
+  {
+    "key": "ctrl+enter",
+    "command": "-github.copilot.generate",
+    "when": "editorTextFocus && github.copilot.activated"
+  },
+  {
+    "key": "alt+g",
+    "command": "git-graph.view"
+  },
+  {
+    "key": "ctrl+alt+n",
+    "command": "-extension.advancedNewFile"
+  },
+  {
+    "key": "ctrl+0",
+    "command": "workbench.action.zoomReset"
+  },
+  {
+    "key": "ctrl+numpad0",
+    "command": "-workbench.action.zoomReset"
+  },
+  {
+    "key": "ctrl+enter",
+    "command": "-github.copilot.generate",
+    "when": "editorTextFocus && github.copilot.activated && !inInteractiveInput && !interactiveEditorFocused"
+  },
+  {
+    "key": "alt+i",
+    "command": "namespaceResolver.import",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+k ctrl+c",
+    "command": "workbench.files.action.collapseExplorerFolders"
+  },
+  {
+    "key": "ctrl+k ctrl+shift+w",
+    "command": "-workbench.action.closeAllGroups"
+  },
+  {
+    "key": "ctrl+k ctrl+w",
+    "command": "-workbench.action.closeAllEditors"
+  },
+  {
+    "key": "ctrl+k w",
+    "command": "-workbench.action.closeEditorsInGroup"
+  },
+  {
+    "key": "ctrl+k ctrl+w",
+    "command": "workbench.action.closeAllEditors"
+  },
+  {
+    "key": "ctrl+k ctrl+shift+w",
+    "command": "workbench.action.closeOtherEditors"
+  }
+]
 ```
