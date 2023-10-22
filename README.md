@@ -21,8 +21,6 @@ Better Laravel Extension Pack for a collection of extensions that help you with 
   },
   "explorer.confirmDelete": false,
   "terminal.integrated.gpuAcceleration": "on",
-  "liveServer.settings.donotVerifyTags": true,
-  "liveServer.settings.donotShowInfoMsg": true,
   "php.validate.enable": false,
   "emmet.excludeLanguages": [
     "markdown",
@@ -42,12 +40,6 @@ Better Laravel Extension Pack for a collection of extensions that help you with 
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "github.copilot.enable": {
-    "*": true,
-    "yaml": false,
-    "plaintext": false,
-    "markdown": true
-  },
   "telemetry.telemetryLevel": "off",
   "typescript.inlayHints.enumMemberValues.enabled": true,
   "scm.diffDecorations": "gutter",
@@ -73,9 +65,6 @@ Better Laravel Extension Pack for a collection of extensions that help you with 
   "editor.smoothScrolling": true,
   "terminal.integrated.cursorStyle": "line",
   "editor.cursorBlinking": "expand",
-  "[svelte]": {
-    "editor.defaultFormatter": "svelte.svelte-vscode"
-  },
   "terminal.integrated.enableMultiLinePasteWarning": false,
   "editor.bracketPairColorization.enabled": false,
   "laravel-pint.enable": true,
