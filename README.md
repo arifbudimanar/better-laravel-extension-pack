@@ -60,50 +60,13 @@
   "screencastMode.keyboardOverlayTimeout": 5000,
   "editor.renderLineHighlight": "none",
   "editor.matchBrackets": "never",
-  "workbench.colorCustomizations": {
-    "[Gatito Theme]": {
-      // "tab.activeBorder": "#fac863",
-      "tab.activeBorderTop": "#fac863",
-      // "tab.activeBackground": "#1d2325",
-      // "button.background": "#5fb3b3",
-      // "button.hoverBackground": "#98c793",
-      "activityBar.activeBorder": "#fac863",
-      "activityBar.activeBackground": "#1d2325",
-      // "titleBar.activeBackground": "#1d2325",
-      "titleBar.activeBackground": "#242b2e",
-      "titleBar.activeForeground": "#d4d4d4",
-      // "titleBar.activeForeground": "#fac863",
-      "phpParameterHint.hintForeground": "#fac863",
-      "phpParameterHint.hintBackground": "#1d2325",
-      // "editor.background": "#1d2325",
-      // "editorGutter.background": "#1d2325",
-      "editorLineNumber.activeForeground": "#fac863"
-      // "activityBar.background": "#1d2325"
-    },
-    "[JetBrains New UI Dark Theme]": {
-      "phpParameterHint.hintForeground": "#6e7681",
-      "phpParameterHint.hintBackground": "#1e1f22"
-    },
-    "[Default Light+]": {
-      "tab.activeBorderTop": "#1f9be5"
-    },
-    "[Night Owl]": {
-      "tab.activeBorderTop": "#e49367",
-      "activityBar.activeBorder": "#e49367"
-    }
-  },
   "workbench.startupEditor": "none",
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.fontFamily": "JetBrains Mono",
-  // "editor.fontFamily": "Cascadia Code",
-  // "editor.fontFamily": "Fira Code",
-  // "editor.fontFamily": "MonoLisa",
-  // "editor.fontFamily": "Menlo",
   "editor.fontLigatures": true,
-  // "editor.lineHeight": 30,
   "editor.lineHeight": 2.15,
   "phpParameterHint.onChange": true,
   "security.workspace.trust.untrustedFiles": "open",
@@ -113,7 +76,6 @@
   "window.autoDetectColorScheme": true,
   "workbench.preferredLightColorTheme": "GitHub Light Default",
   "explorer.compactFolders": false,
-  // "workbench.tree.indent": 22,
   "workbench.tree.indent": 16,
   "editor.smoothScrolling": true,
   "terminal.integrated.cursorStyle": "line",
@@ -132,7 +94,6 @@
   "terminal.explorerKind": "external",
   "terminal.integrated.cursorBlinking": true,
   "zenMode.fullScreen": false,
-  // file blade show html snippets
   "blade.format.enable": true,
   "LaravelExtraIntellisense.basePath": "App\\",
   "intelephense.environment.phpVersion": "8.1.21",

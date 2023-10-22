@@ -3,7 +3,8 @@
   "displayName": "Better Laravel Extension Pack",
   "description": "just a better one",
   "publisher": "arifbudimanar",
-  "version": "0.0.2",
+  "icon": "images/icon.png",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.83.0"
   },
