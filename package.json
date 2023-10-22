@@ -2,9 +2,14 @@
   "name": "better-laravel-extension-pack",
   "displayName": "Better Laravel Extension Pack",
   "description": "just a better one",
-  "version": "0.0.1",
+  "publisher": "arifbudimanar",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.83.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arifbudimanar/better-laravel-extension-pack"
   },
   "categories": [
     "Extension Packs"
@@ -12,10 +17,9 @@
   "extensionPack": [
     "adrianwilczynski.alpine-js-intellisense",
     "ahinkle.laravel-model-snippets",
-    "ahmadawais.emoji-log-vscode",
     "amiralizadeh9480.laravel-extra-intellisense",
     "arbitraer.laravel-blade-additional-snippets",
-    "ArifCode.arifcode-theme",
+    "arifbudimanar.arifcode-theme",
     "austenc.laravel-blade-spacer",
     "bierner.markdown-checkbox",
     "bierner.markdown-preview-github-styles",
@@ -27,11 +31,8 @@
     "csstools.postcss",
     "cweijan.vscode-mysql-client2",
     "dansysanalyst.pest-snippets",
-    "dbaeumer.vscode-eslint",
-    "dsznajder.es7-react-js-snippets",
     "ecmel.vscode-html-css",
     "EditorConfig.EditorConfig",
-    "entexa.tall-stack",
     "esbenp.prettier-vscode",
     "formulahendry.auto-rename-tag",
     "georgykurian.laravel-ide-helper",
