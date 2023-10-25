@@ -63,11 +63,28 @@
     "theme": "dark"
   },
   "icon": "images/icon.png",
+  "keywords": [
+    "better",
+    "laravel",
+    "extension-pack",
+    "php",
+    "tailwindcss",
+    "intelephense",
+    "material-icon-theme",
+    "php-parameter-hints",
+    "pint",
+    "pest",
+    "livewire",
+    "vscode",
+    "vscode-extension",
+    "minimalist",
+    "shortcuts"
+  ],
   "name": "better-laravel-extension-pack",
   "publisher": "arifbudimanar",
   "repository": {
     "type": "git",
     "url": "https://github.com/arifbudimanar/better-laravel-extension-pack"
   },
-  "version": "0.0.8"
+  "version": "0.0.9"
 }
