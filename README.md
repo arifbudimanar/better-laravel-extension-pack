@@ -7,109 +7,107 @@ Better Laravel Extension Pack for a collection of extensions that help you with 
 ### settings.json
 
 ```json
-  "editor.inlineSuggest.enabled": true,
-  "[jsonc]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
-  "git.confirmSync": false,
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+{
+  "[blade]": {
+    "editor.defaultFormatter": "shufo.vscode-blade-formatter"
   },
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
   },
-  "explorer.confirmDelete": false,
-  "terminal.integrated.gpuAcceleration": "on",
-  "php.validate.enable": false,
-  "emmet.excludeLanguages": [
-    "markdown",
-    "php"
-  ],
-  "[php]": {
-    "editor.defaultFormatter": "open-southeners.laravel-pint"
-    // "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[blade]": {
-    "editor.defaultFormatter": "shufo.vscode-blade-formatter"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "telemetry.telemetryLevel": "off",
-  "typescript.inlayHints.enumMemberValues.enabled": true,
-  "scm.diffDecorations": "gutter",
-  "files.autoSave": "onWindowChange",
-  "editor.renderLineHighlight": "none",
-  "editor.matchBrackets": "never",
-  "workbench.startupEditor": "none",
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
   },
+  "[php]": {
+    "editor.defaultFormatter": "open-southeners.laravel-pint"
+    // "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "blade.format.enable": true,
+  "breadcrumbs.enabled": false,
+  "database-client.telemetry.usesOnlineServices": false,
+  "editor.bracketPairColorization.enabled": false,
+  "editor.cursorBlinking": "expand",
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.fontFamily": "JetBrains Mono",
   "editor.fontLigatures": true,
+  "editor.formatOnSave": true,
+  "editor.inlineSuggest.enabled": true,
   "editor.lineHeight": 2.15,
-  "security.workspace.trust.untrustedFiles": "open",
-  "explorer.confirmDragAndDrop": false,
-  "zenMode.centerLayout": false,
-  "workbench.preferredDarkColorTheme": "ArifCode Theme",
-  "window.autoDetectColorScheme": true,
-  "workbench.preferredLightColorTheme": "GitHub Light Default",
-  "explorer.compactFolders": false,
-  "workbench.tree.indent": 16,
+  "editor.matchBrackets": "never",
+  "editor.minimap.enabled": false,
+  "editor.renderLineHighlight": "none",
+  "editor.renderWhitespace": "none",
   "editor.smoothScrolling": true,
-  "terminal.integrated.cursorStyle": "line",
-  "editor.cursorBlinking": "expand",
-  "terminal.integrated.enableMultiLinePasteWarning": false,
-  "editor.bracketPairColorization.enabled": false,
+  "emmet.excludeLanguages": ["markdown", "php"],
+  "errorLens.messageTemplate": "$severity $source - $message  ",
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "files.autoSave": "onWindowChange",
+  "git-graph.graph.style": "angular",
+  "git.confirmSync": false,
+  "intelephense.telemetry.enabled": false,
+  "intelephense.trace.server": "messages",
   "laravel-pint.enable": true,
+  "laravel-pint.enableDebugLogs": true,
+  "laravel-pint.preset": "laravel",
+  "material-icon-theme.activeIconPack": "angular",
+  "material-icon-theme.folders.color": "#808080",
+  "material-icon-theme.folders.theme": "specific",
+  "material-icon-theme.hidesExplorerArrows": true,
+  "phpParameterHint.changeDelay": 0,
+  "phpParameterHint.collapseHintsWhenEqual": true,
+  "phpParameterHint.collapseTypeWhenEqual": true,
+  "phpParameterHint.fontSize": 14,
+  "phpParameterHint.onChange": true,
+  "phpParameterHint.onSave": false,
+  "phpParameterHint.opacity": 1,
+  "phpParameterHint.saveDelay": 0,
+  "phpParameterHint.showDollarSign": false,
+  "phpParameterHint.textEditorChangeDelay": 0,
+  "phpParameterHint.verticalPadding": 0,
+  "scm.diffDecorations": "gutter",
+  "screencastMode.fontSize": 30,
+  "screencastMode.keyboardOverlayTimeout": 5000,
+  "screencastMode.verticalOffset": 2,
+  "security.workspace.trust.untrustedFiles": "open",
+  "telemetry.telemetryLevel": "off",
   "terminal.explorerKind": "external",
   "terminal.integrated.cursorBlinking": true,
-  "zenMode.fullScreen": false,
-  "blade.format.enable": true,
-  "LaravelExtraIntellisense.basePath": "App\\",
-  "intelephense.environment.phpVersion": "8.1.21",
-  "laravel-pint.enableDebugLogs": true,
-  "editor.formatOnSave": true,
-  "zenMode.hideLineNumbers": false,
-  "laravel-pint.preset": "laravel",
-  "window.title": "${rootName}",
-  "editor.minimap.enabled": false,
-  "workbench.list.smoothScrolling": true,
-  "workbench.layoutControl.enabled": false,
-  "editor.renderWhitespace": "none",
-  "git-graph.graph.style": "angular",
-  "workbench.iconTheme": "material-icon-theme",
-  "material-icon-theme.hidesExplorerArrows": true,
-  "material-icon-theme.folders.color": "#808080",
-  "intelephense.runtime": "C:\\laragon\\bin\\nodejs\\node-v18.17.0-win-x64\\node.exe",
-  "material-icon-theme.folders.theme": "specific",
-  "phpParameterHint.collapseTypeWhenEqual": true,
-  "phpParameterHint.onChange": true,
-  "phpParameterHint.changeDelay": 0,
-  "phpParameterHint.saveDelay": 0,
-  "phpParameterHint.verticalPadding": 0,
-  "phpParameterHint.collapseHintsWhenEqual": true,
-  "phpParameterHint.onSave": false,
-  "phpParameterHint.textEditorChangeDelay": 0,
-  "phpParameterHint.opacity": 1,
-  "phpParameterHint.fontSize": 14,
-  "material-icon-theme.activeIconPack": "angular",
-  "phpParameterHint.showDollarSign": true,
-  "errorLens.messageTemplate": "$severity $source - $message  ",
-  "breadcrumbs.enabled": false,
-  "database-client.telemetry.usesOnlineServices": false,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "terminal.integrated.gpuAcceleration": "on",
+  "typescript.inlayHints.enumMemberValues.enabled": true,
+  "window.autoDetectColorScheme": true,
   "window.commandCenter": false,
-  "diffEditor.ignoreTrimWhitespace": false,
-  "workbench.colorTheme": "ArifCode Theme",
+  "window.menuBarVisibility": "compact",
+  "window.title": "${rootName}",
   "workbench.activityBar.visible": false,
-  "workbench.statusBar.visible": false,
-  "window.menuBarVisibility": "compact"
+  "workbench.colorTheme": "ArifCode Theme",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.layoutControl.enabled": false,
+  "workbench.list.smoothScrolling": true,
+  "workbench.preferredDarkColorTheme": "ArifCode Theme",
+  "workbench.preferredLightColorTheme": "GitHub Light Default",
+  "workbench.startupEditor": "none",
+  "workbench.tree.indent": 16,
+  "zenMode.centerLayout": false,
+  "zenMode.fullScreen": false,
+  "zenMode.hideLineNumbers": false
+}
 ```
 
 ### keybindings.json

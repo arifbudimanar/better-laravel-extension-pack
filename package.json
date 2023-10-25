@@ -1,20 +1,12 @@
 {
-  "name": "better-laravel-extension-pack",
-  "displayName": "Better Laravel Extension Pack",
-  "description": "just a better one",
-  "publisher": "arifbudimanar",
-  "icon": "images/icon.png",
-  "version": "0.0.6",
-  "engines": {
-    "vscode": "^1.83.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/arifbudimanar/better-laravel-extension-pack"
-  },
   "categories": [
     "Extension Packs"
   ],
+  "description": "just a better one",
+  "displayName": "Better Laravel Extension Pack",
+  "engines": {
+    "vscode": "^1.83.0"
+  },
   "extensionPack": [
     "adrianwilczynski.alpine-js-intellisense",
     "ahinkle.laravel-model-snippets",
@@ -65,5 +57,17 @@
     "usernamehw.errorlens",
     "waderyan.gitblame",
     "wmaurer.change-case"
-  ]
+  ],
+  "galleryBanner": {
+    "color": "#240804",
+    "theme": "dark"
+  },
+  "icon": "images/icon.png",
+  "name": "better-laravel-extension-pack",
+  "publisher": "arifbudimanar",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arifbudimanar/better-laravel-extension-pack"
+  },
+  "version": "0.0.7"
 }
