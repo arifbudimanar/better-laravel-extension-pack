@@ -2,7 +2,7 @@
   "categories": [
     "Extension Packs"
   ],
-  "description": "just a better one",
+  "description": "Best suited for Laravel developers who want to use VS Code as their main editor. This extension pack includes everything you need to start coding Laravel projects in VS Code.",
   "displayName": "Better Laravel Extension Pack",
   "engines": {
     "vscode": "^1.83.0"
@@ -80,11 +80,15 @@
     "minimalist",
     "shortcuts"
   ],
+  "license": "MIT",
+  "maintainers": [
+    "Arif Budiman Arrosyid"
+  ],
   "name": "better-laravel-extension-pack",
   "publisher": "arifbudimanar",
   "repository": {
     "type": "git",
     "url": "https://github.com/arifbudimanar/better-laravel-extension-pack"
   },
-  "version": "0.0.9"
+  "version": "0.0.10"
 }
