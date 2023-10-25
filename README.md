@@ -103,6 +103,7 @@ Better Laravel Extension Pack for a collection of extensions that help you with 
   "workbench.preferredDarkColorTheme": "ArifCode Theme",
   "workbench.preferredLightColorTheme": "GitHub Light Default",
   "workbench.startupEditor": "none",
+  "workbench.statusBar.visible": false,
   "workbench.tree.indent": 16,
   "zenMode.centerLayout": false,
   "zenMode.fullScreen": false,
