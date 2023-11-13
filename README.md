@@ -1,3 +1,5 @@
+![Banner](images/banner.png)
+
 ![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/arifbudimanar.better-laravel-extension-pack?style=for-the-badge)
 ![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/arifbudimanar.better-laravel-extension-pack?style=for-the-badge)
 ![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/arifbudimanar.better-laravel-extension-pack?style=for-the-badge)
