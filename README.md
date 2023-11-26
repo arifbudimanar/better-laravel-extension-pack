@@ -28,7 +28,7 @@ Better Laravel Extension Pack for a collection of extensions that help you with 
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.json-language-features"
   },
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
@@ -43,14 +43,17 @@ Better Laravel Extension Pack for a collection of extensions that help you with 
   "blade.format.enable": true,
   "breadcrumbs.enabled": false,
   "database-client.telemetry.usesOnlineServices": false,
+  "diffEditor.ignoreTrimWhitespace": false,
   "editor.bracketPairColorization.enabled": false,
-  "editor.cursorBlinking": "expand",
+  "editor.cursorBlinking": "phase",
   "editor.cursorSmoothCaretAnimation": "on",
-  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontFamily": "'JetBrains Mono'",
   "editor.fontLigatures": true,
   "editor.formatOnSave": true,
   "editor.inlineSuggest.enabled": true,
-  "editor.lineHeight": 2.15,
+  "editor.lineHeight": 3.15,
+  // "editor.lineHeight": 2.15,
+  // "editor.lineHeight": 48,
   "editor.matchBrackets": "never",
   "editor.minimap.enabled": false,
   "editor.renderLineHighlight": "none",
@@ -77,6 +80,7 @@ Better Laravel Extension Pack for a collection of extensions that help you with 
   "phpParameterHint.collapseHintsWhenEqual": true,
   "phpParameterHint.collapseTypeWhenEqual": true,
   "phpParameterHint.fontSize": 14,
+  "phpParameterHint.hintTypeName": 0,
   "phpParameterHint.onChange": true,
   "phpParameterHint.onSave": false,
   "phpParameterHint.opacity": 1,
@@ -100,9 +104,7 @@ Better Laravel Extension Pack for a collection of extensions that help you with 
   "typescript.inlayHints.enumMemberValues.enabled": true,
   "window.autoDetectColorScheme": true,
   "window.commandCenter": false,
-  "window.menuBarVisibility": "compact",
   "window.title": "${rootName}",
-  "workbench.activityBar.visible": false,
   "workbench.colorTheme": "ArifCode Theme",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.layoutControl.enabled": false,
@@ -110,11 +112,14 @@ Better Laravel Extension Pack for a collection of extensions that help you with 
   "workbench.preferredDarkColorTheme": "ArifCode Theme",
   "workbench.preferredLightColorTheme": "GitHub Light Default",
   "workbench.startupEditor": "none",
-  "workbench.statusBar.visible": false,
   "workbench.tree.indent": 16,
   "zenMode.centerLayout": false,
   "zenMode.fullScreen": false,
-  "zenMode.hideLineNumbers": false
+  "zenMode.hideLineNumbers": false,
+  "zenMode.showTabs": "single",
+  "workbench.activityBar.location": "hidden",
+  "workbench.statusBar.visible": false,
+  "window.menuBarVisibility": "compact"
 }
 ```
 
@@ -208,6 +213,79 @@ Better Laravel Extension Pack for a collection of extensions that help you with 
   {
     "key": "ctrl+k ctrl+shift+w",
     "command": "workbench.action.closeOtherEditors"
+  },
+  {
+    "key": "ctrl+k ctrl+r",
+    "command": "better-pest.run"
+  },
+  {
+    "key": "ctrl+k ctrl+p",
+    "command": "better-pest.run-previous"
+  },
+  {
+    "key": "ctrl+k ctrl+f",
+    "command": "better-pest.run-file"
+  },
+  {
+    "key": "win+k win+f",
+    "command": "-better-pest.run-file"
+  },
+  {
+    "key": "win+k win+r",
+    "command": "-better-pest.run"
+  },
+  {
+    "key": "win+k win+p",
+    "command": "-better-pest.run-previous"
   }
 ]
+```
+
+### Bash Aliases
+
+```bash
+# php artisan command
+alias pa='php artisan'
+alias pas='php artisan serve'
+alias pam='php artisan migrate'
+alias pamf='php artisan migrate:fresh'
+alias pamfs='php artisan migrate:fresh --seed'
+alias pads='php artisan db:seed'
+alias paoc='php artisan optimize:clear'
+alias pakg='php artisan key:generate'
+alias pat='php artisan test'
+alias pint='./vendor/bin/pint'
+alias pest='./vendor/bin/pest'
+
+# composer command
+alias cu='composer update'
+alias ci='composer install'
+alias cr='composer require'
+alias cdo='composer dump-autoload --optimize'
+
+# npm command
+alias ni='npm install'
+alias nu='npm update'
+alias nrd='npm run dev'
+alias nrb='npm run build'
+
+# navigation command
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
+alias cdc='cd /c'
+alias cdd='cd /d'
+alias cdh='cd ~'
+alias cdl='cd /d/Laravel'
+alias bashrc='code ~/.bashrc'
+alias bashrcs='source ~/.bashrc'
+
+# other command
+alias c='clear'
+alias st='speedtest'
+alias hosts='code C:/Windows/System32/drivers/etc/hosts'
 ```
