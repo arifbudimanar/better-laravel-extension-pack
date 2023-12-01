@@ -15,6 +15,18 @@ Better Laravel Extension Pack for a collection of extensions that help you with 
 
 ```json
 {
+  // "window.titleBarStyle": "native",
+  // "apc.electron": {
+  //   "frame": false
+  // },
+  // "apc.activityBar": {
+  //   "size": 36
+  // },
+  // "apc.menubar.compact": true,
+  // "apc.statusBar": {
+  //   "height": 30
+  // },
+  // "zenMode.showTabs": "none",
   "[blade]": {
     "editor.defaultFormatter": "shufo.vscode-blade-formatter"
   },
@@ -45,8 +57,9 @@ Better Laravel Extension Pack for a collection of extensions that help you with 
   "database-client.telemetry.usesOnlineServices": false,
   "diffEditor.ignoreTrimWhitespace": false,
   "editor.bracketPairColorization.enabled": false,
-  "editor.cursorBlinking": "phase",
+  "editor.cursorBlinking": "expand",
   "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorStyle": "line-thin",
   "editor.fontFamily": "'JetBrains Mono'",
   "editor.fontLigatures": true,
   "editor.formatOnSave": true,
@@ -67,6 +80,8 @@ Better Laravel Extension Pack for a collection of extensions that help you with 
   "files.autoSave": "onWindowChange",
   "git-graph.graph.style": "angular",
   "git.confirmSync": false,
+  "gitblame.inlineMessageFormat": "${author.name} - ${time.ago}",
+  "gitblame.statusBarMessageFormat": "${author.name} - ${time.ago}",
   "intelephense.telemetry.enabled": false,
   "intelephense.trace.server": "messages",
   "laravel-pint.enable": true,
@@ -77,10 +92,8 @@ Better Laravel Extension Pack for a collection of extensions that help you with 
   "material-icon-theme.folders.theme": "specific",
   "material-icon-theme.hidesExplorerArrows": true,
   "phpParameterHint.changeDelay": 0,
-  "phpParameterHint.collapseHintsWhenEqual": true,
-  "phpParameterHint.collapseTypeWhenEqual": true,
   "phpParameterHint.fontSize": 14,
-  "phpParameterHint.hintTypeName": 0,
+  "phpParameterHint.hintTypeName": 2,
   "phpParameterHint.onChange": true,
   "phpParameterHint.onSave": false,
   "phpParameterHint.opacity": 1,
@@ -102,21 +115,23 @@ Better Laravel Extension Pack for a collection of extensions that help you with 
   "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
   "terminal.integrated.gpuAcceleration": "on",
   "typescript.inlayHints.enumMemberValues.enabled": true,
+  "update.mode": "default",
   "window.autoDetectColorScheme": true,
   "window.commandCenter": false,
   "window.title": "${rootName}",
-  "workbench.colorTheme": "ArifCode Theme",
+  "workbench.colorTheme": "ArifCode Theme - Original",
+  "workbench.colorTheme": "ArifCode Theme - Windows",
+  "workbench.editor.tabCloseButton": "off",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.layoutControl.enabled": false,
   "workbench.list.smoothScrolling": true,
-  "workbench.preferredDarkColorTheme": "ArifCode Theme",
+  "workbench.preferredDarkColorTheme": "ArifCode Theme - Original",
   "workbench.preferredLightColorTheme": "GitHub Light Default",
   "workbench.startupEditor": "none",
   "workbench.tree.indent": 16,
   "zenMode.centerLayout": false,
   "zenMode.fullScreen": false,
   "zenMode.hideLineNumbers": false,
-  "zenMode.showTabs": "single",
   "workbench.activityBar.location": "hidden",
   "workbench.statusBar.visible": false,
   "window.menuBarVisibility": "compact"
