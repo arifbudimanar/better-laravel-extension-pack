@@ -9,6 +9,12 @@
 
 Better Laravel Extension Pack for a collection of extensions that help you with Laravel development.
 
+## Installation
+
+```
+ext install arifbudimanar.better-laravel-extension-pack
+```
+
 ## Recommended Settings for minimal and better experience
 
 ### settings.json
