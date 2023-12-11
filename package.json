@@ -31,7 +31,6 @@
     "esbenp.prettier-vscode",
     "formulahendry.auto-rename-tag",
     "georgykurian.laravel-ide-helper",
-    "Hermetikos.subword-navigation-keymaps",
     "heybourn.headwind",
     "lennardv.livewire-goto-updated",
     "m1guelpf.better-pest",
@@ -57,7 +56,8 @@
     "Tyriar.lorem-ipsum",
     "usernamehw.errorlens",
     "waderyan.gitblame",
-    "wmaurer.change-case"
+    "wmaurer.change-case",
+    "ow.vscode-subword-navigation"
   ],
   "galleryBanner": {
     "color": "#240804",
