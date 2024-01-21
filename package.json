@@ -8,13 +8,12 @@
     "vscode": "^1.83.0"
   },
   "extensionPack": [
-    "adrianwilczynski.alpine-js-intellisense",
     "ahinkle.laravel-model-snippets",
     "amiralizadeh9480.laravel-extra-intellisense",
     "arbitraer.laravel-blade-additional-snippets",
-    "arifbudimanar.arifcode-theme",
+    "arifbudimanar.arifcode-theme-exclusive",
     "arifbudimanar.arifcode-theme-windows",
-    "GitHub.github-vscode-theme",
+    "arifbudimanar.arifcode-theme",
     "austenc.laravel-blade-spacer",
     "bierner.markdown-checkbox",
     "bierner.markdown-preview-github-styles",
@@ -31,6 +30,7 @@
     "esbenp.prettier-vscode",
     "formulahendry.auto-rename-tag",
     "georgykurian.laravel-ide-helper",
+    "GitHub.github-vscode-theme",
     "heybourn.headwind",
     "lennardv.livewire-goto-updated",
     "m1guelpf.better-pest",
@@ -45,6 +45,8 @@
     "onecentlin.laravel-blade",
     "onecentlin.laravel5-snippets",
     "open-southeners.laravel-pint",
+    "ow.vscode-subword-navigation",
+    "pcbowers.alpine-intellisense",
     "pgl.laravel-jump-controller",
     "phiter.phpstorm-snippets",
     "PKief.material-icon-theme",
@@ -56,8 +58,7 @@
     "Tyriar.lorem-ipsum",
     "usernamehw.errorlens",
     "waderyan.gitblame",
-    "wmaurer.change-case",
-    "ow.vscode-subword-navigation"
+    "wmaurer.change-case"
   ],
   "galleryBanner": {
     "color": "#240804",
@@ -91,5 +92,5 @@
     "type": "git",
     "url": "https://github.com/arifbudimanar/better-laravel-extension-pack"
   },
-  "version": "0.0.18"
+  "version": "0.0.19"
 }
