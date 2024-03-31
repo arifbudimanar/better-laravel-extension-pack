@@ -21,18 +21,6 @@ ext install arifbudimanar.better-laravel-extension-pack
 
 ```json
 {
-  // "window.titleBarStyle": "native",
-  // "apc.electron": {
-  //   "frame": false
-  // },
-  // "apc.activityBar": {
-  //   "size": 36
-  // },
-  // "apc.menubar.compact": true,
-  // "apc.statusBar": {
-  //   "height": 30
-  // },
-  // "zenMode.showTabs": "none",
   "[blade]": {
     "editor.defaultFormatter": "shufo.vscode-blade-formatter"
   },
@@ -58,6 +46,17 @@ ext install arifbudimanar.better-laravel-extension-pack
   "[typescript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
+  // "window.titleBarStyle": "native",
+  // "apc.electron": {
+  //   "frame": false
+  // },
+  "apc.activityBar": {
+    "size": 36
+  },
+  "apc.menubar.compact": true,
+  "apc.statusBar": {
+    "height": 30
+  },
   "blade.format.enable": true,
   "breadcrumbs.enabled": false,
   "database-client.telemetry.usesOnlineServices": false,
@@ -69,6 +68,7 @@ ext install arifbudimanar.better-laravel-extension-pack
   "editor.fontFamily": "'JetBrains Mono'",
   "editor.fontLigatures": true,
   "editor.formatOnSave": true,
+  "editor.hover.sticky": false,
   "editor.inlineSuggest.enabled": true,
   "editor.lineHeight": 3.15,
   // "editor.lineHeight": 2.15,
@@ -78,6 +78,8 @@ ext install arifbudimanar.better-laravel-extension-pack
   "editor.renderLineHighlight": "none",
   "editor.renderWhitespace": "none",
   "editor.smoothScrolling": true,
+  "editor.stickyScroll.enabled": false,
+  "editor.stickyScroll.scrollWithEditor": false,
   "emmet.excludeLanguages": ["markdown", "php"],
   "errorLens.messageTemplate": "$severity $source - $message  ",
   "explorer.compactFolders": false,
@@ -117,7 +119,7 @@ ext install arifbudimanar.better-laravel-extension-pack
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "terminal.integrated.enableMultiLinePasteWarning": "auto",
   "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
   "terminal.integrated.gpuAcceleration": "on",
   "typescript.inlayHints.enumMemberValues.enabled": true,
@@ -125,7 +127,9 @@ ext install arifbudimanar.better-laravel-extension-pack
   "window.autoDetectColorScheme": true,
   "window.commandCenter": false,
   "window.title": "${rootName}",
-  "workbench.colorTheme": "ArifCode Theme - Windows",
+  "workbench.activityBar.location": "hidden",
+  "workbench.colorTheme": "ArifCode Theme - Exclusive",
+  "workbench.editor.tabActionCloseVisibility": false,
   "workbench.editor.tabCloseButton": "off",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.layoutControl.enabled": false,
@@ -133,13 +137,13 @@ ext install arifbudimanar.better-laravel-extension-pack
   "workbench.preferredDarkColorTheme": "ArifCode Theme - Windows",
   "workbench.preferredLightColorTheme": "GitHub Light Default",
   "workbench.startupEditor": "none",
+  "workbench.statusBar.visible": false,
+  "workbench.tree.enableStickyScroll": false,
   "workbench.tree.indent": 16,
   "zenMode.centerLayout": false,
   "zenMode.fullScreen": false,
   "zenMode.hideLineNumbers": false,
-  "workbench.activityBar.location": "hidden",
-  "workbench.statusBar.visible": false,
-  "window.menuBarVisibility": "compact"
+  "zenMode.showTabs": "none"
 }
 ```
 
@@ -271,12 +275,17 @@ alias pam='php artisan migrate'
 alias pamf='php artisan migrate:fresh'
 alias pamfs='php artisan migrate:fresh --seed'
 alias pads='php artisan db:seed'
+alias pao='php artisan optimize'
 alias paoc='php artisan optimize:clear'
 alias pakg='php artisan key:generate'
 alias parl='php artisan route:list'
 alias pat='php artisan test'
+alias patp='php artisan test --parallel'
+alias patc='php artisan translations:check'
 alias pint='./vendor/bin/pint'
 alias pest='./vendor/bin/pest'
+alias pesttc='./vendor/bin/pest --type-coverage'
+alias pestp='./vendor/bin/pest --parallel'
 
 # composer command
 alias cu='composer update'
@@ -309,4 +318,5 @@ alias st='speedtest'
 alias bashrc='code ~/.bashrc'
 alias bashrcs='source ~/.bashrc'
 alias hosts='code C:/Windows/System32/drivers/etc/hosts'
+alias catssh='cat ~/.ssh/id_rsa.pub'
 ```
